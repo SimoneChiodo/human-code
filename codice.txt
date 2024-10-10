@@ -1,0 +1,45 @@
+***************************************************************************************
+TRACCIA ES 8
+
+Contare i posti a tavola di 2 in 2
+Ci s(t)iamo tutti?
+Per il pranzo di Natale, diamo una mano a nonna per preparare la tavola:
+zio Rino, la piccola Emy, zia Lucia e nonno Carlo… siamo davvero in tanti!
+Non sarà un pranzo formale, perciò non servono i segnaposto con i nomi,
+però dobbiamo verificare che ci sia un posto per ciascuno.
+Per essere più rapidi contiamo i posti a tavola di 2 in 2 e ci accorgiamo che avevamo dimenticato un posto!
+
+***************************************************************************************
+FORME CONSENTITE
+***************************************************************************************
+SE
+SE - ALLORA/ALTRIMENTI
+FINCHE'
+PER OGNI
+
+***************************************************************************************
+DATI
+***************************************************************************************
+- entità da contare:
+    posti a sedere
+- seconda entità da contare:
+    invitati (TOT)
+- dato conosciuto, invitati certi:
+    - IO
+    - nonna
+    - zio rino
+    - piccola emily
+    - zia lucia
+    - nonno carlo
+LISTA INVITATI
+N MINIMO INVITATI = (lista nomi fatti) 6
+CONDIZIONE DELL'OUTPUT = invitati
+OUTPUT = numero posti (numero)
+
+***************************************************************************************
+BRAINSTORMING
+***************************************************************************************
+1 contare gli invitati (X)
+2 conto i posti a sedere (Y)
+3 (FINCHE') il numero di invitati (X) è maggiore (>) dei posti a sedere (Y) [ condizione = true ]
+    - aggiungi un posto a sedere
